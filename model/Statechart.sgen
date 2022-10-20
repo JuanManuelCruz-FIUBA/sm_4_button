@@ -1,0 +1,14 @@
+GeneratorModel for yakindu::cpp {
+
+	statechart Statechart {
+
+		feature Outlet {
+			targetProject = "sm_4_button"
+			targetFolder = "src-gen"
+		}
+	
+		feature GeneralFeatures {
+			timerService = true
+		}
+	}
+}
