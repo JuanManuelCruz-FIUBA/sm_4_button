@@ -3,8 +3,6 @@
 #ifndef _BUTTONS_H_
 #define _BUTTONS_H_
 
-#include <cstdint>
-
 //=====[Declaration of public defines]=========================================
 
 //=====[Declaration of public data types]======================================
@@ -13,7 +11,7 @@
 
 void opButtonInit();
 void opButtonUpdate();
-std::uint32_t opButtonRead();
+int opButtonRead();
 
 //=====[#include guards - end]=================================================
 

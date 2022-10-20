@@ -32,7 +32,7 @@ void opButtonUpdate()
 {
 }
 
-uint32_t opButtonRead()
+int opButtonRead()
 {
     return b1.read();
 }
