@@ -12,6 +12,7 @@
 void opLedInit();
 void opLedUpdate();
 bool opLedRead();
+void opLedWrite( int value );
 
 //=====[#include guards - end]=================================================
 
